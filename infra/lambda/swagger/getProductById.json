@@ -1,0 +1,21 @@
+{
+  "paths": {
+    "/products/{id}": {
+      "get": {
+        "summary": "Get a product by ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": { "description": "A product object" },
+          "404": { "description": "Product not found" }
+        }
+      }
+    }
+  }
+}

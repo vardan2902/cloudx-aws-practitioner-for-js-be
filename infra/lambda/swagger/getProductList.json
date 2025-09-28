@@ -1,0 +1,14 @@
+{
+  "paths": {
+    "/products": {
+      "get": {
+        "summary": "Get all products",
+        "responses": {
+          "200": {
+            "description": "A list of products"
+          }
+        }
+      }
+    }
+  }
+}
